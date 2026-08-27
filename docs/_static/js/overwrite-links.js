@@ -1,6 +1,6 @@
 // Replaces rtd-address with new-address in links
 
-const rtd_address = 'canonical-openstack.readthedocs-hosted.com/';
+const rtd_address = 'https://canonical-openstack-proxy.readthedocs-hosted.com/';
 const new_address = 'canonical.com/openstack/docs';
 const new_path = '/' + new_address.split('/').slice(1).join('/');
 

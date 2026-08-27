@@ -33,7 +33,7 @@ copyright = f"{datetime.date.today().year}"
 html_title = project + " documentation"
 
 # Documentation website URL
-ogp_site_url = f"https://canonical.com/canonical/docs/{os.environ.get('READTHEDOCS_VERSION', 'local')}/"
+ogp_site_url = f"https://canonical.com/canonical/openstack/docs/{os.environ.get('READTHEDOCS_VERSION', 'local')}/"
 
 # Preview name of the documentation website
 ogp_site_name = project
