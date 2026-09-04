@@ -127,7 +127,7 @@ sitemap_excludes = [
 ################################
 
 html_static_path = ["_static"]
-# templates_path = ["_templates"]
+templates_path = ["_templates"]
 
 #############
 # Redirects #
