@@ -254,7 +254,7 @@ exclude_patterns = [
 html_js_files = [
     "js/overwrite_links.js",
     "https://assets.ubuntu.com/v1/287a5e8f-bundle.js",
- ]
+]
 
 # Appends extra markup to the end of every document written in reST
 rst_epilog = """
