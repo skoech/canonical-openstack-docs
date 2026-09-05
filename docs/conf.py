@@ -33,7 +33,7 @@ copyright = f"{datetime.date.today().year}"
 html_title = project + " documentation"
 
 # Documentation website URL
-ogp_site_url = f"https://canonical.com/openstack/docs/{os.environ.get('READTHEDOCS_VERSION', 'local')}/"
+ogp_site_url = "https://canonical.com/example/docs/"
 
 # Preview name of the documentation website
 ogp_site_name = project
@@ -104,7 +104,7 @@ slug = "openstack/docs"
 #######################
 
 # Use RTD canonical URL to ensure duplicate pages have a specific canonical URL
-html_baseurl = f"https://canonical.com/openstack/docs/{os.environ.get('READTHEDOCS_VERSION', 'local')}/"
+html_baseurl = "https://canonical.com/example/docs/"
 
 # sphinx-sitemap uses html_baseurl to generate the full URL for each page:
 sitemap_url_scheme = "{link}"
@@ -254,7 +254,6 @@ exclude_patterns = [
 html_js_files = [
     "js/overwrite_links.js",
     "https://assets.ubuntu.com/v1/287a5e8f-bundle.js",
-
  ]
 
 # Appends extra markup to the end of every document written in reST
