@@ -252,7 +252,7 @@ exclude_patterns = [
 
 # Adds custom JavaScript files, located remotely or in 'html_static_path'.
 html_js_files = [
-    "js/overwrite-links.js",
+    "js/overwrite_links.js",
 #    "https://assets.ubuntu.com/v1/287a5e8f-bundle.js",
 
  ]
