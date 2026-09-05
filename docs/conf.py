@@ -97,7 +97,7 @@ html_context = {
 # Project slug
 # TODO: If your documentation is hosted on https://documentation.ubuntu.com/,
 #       uncomment and set to the RTD slug.
-slug = 'openstack/docs'
+slug = "openstack/docs"
 
 #######################
 # Sitemap configuration: https://sphinx-sitemap.readthedocs.io/
@@ -253,7 +253,7 @@ exclude_patterns = [
 # Adds custom JavaScript files, located remotely or in 'html_static_path'.
 html_js_files = [
     "js/overwrite_links.js",
-#    "https://assets.ubuntu.com/v1/287a5e8f-bundle.js",
+    "https://assets.ubuntu.com/v1/287a5e8f-bundle.js",
 
  ]
 
